@@ -1,0 +1,46 @@
+body{
+    /* 預設值    */    
+    transition: 3s;    
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    body{
+        transition: 2s;
+        background: red;
+        font-size: 20px;
+        border-top : 50px;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        transition: 1s;
+        background: lightblue;
+        font-size: 10px;
+        border-top : 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    body{
+/*        transition: 3s;*/
+        background: green;
+/*        font-size: 30px;*/
+        border-top : 100px;
+    }
+}
+@media (min-width: 980px) {
+    body{
+        transition: 4s;        
+        background: orange;
+/*        font-size: 40px;*/
+        border-top : 150px;        
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        transition: 5s;        
+        background: blue;
+/*        font-size: 50px;*/
+        border-top : 200px;        
+    }
+}
